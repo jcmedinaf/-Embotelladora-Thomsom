@@ -71,30 +71,38 @@ embotelladora_thomsom/
 ---
 
 ## ⚙️ 4. Instalación y Puesta en Marcha Local
-** 1. Clonar el Repositorio** o descargar los archivos en la carpeta raíz de tu servidor local (ej. htdocs en XAMPP):
+* **1. Clonar el Repositorio** o descargar los archivos en la carpeta raíz de tu servidor local (ej. htdocs en XAMPP):
 
 > Bash
 > git clone [https://github.com/tu-usuario/embotelladora_thomsom.git](https://github.com/tu-usuario/embotelladora_thomsom.git)
 
-## ** 2. Configurar la Base de Datos:**
+---
+
+* **2. Configurar la Base de Datos:**
 
 * Abre tu gestor de base de datos MySQL (phpMyAdmin o consola).
 
 * Ejecuta el script completo ubicado en db_schema.sql para crear la base de datos bd_embotelladora_thomsom y sus respectivas tablas.
 
-## **3. Verificar Conexión:**
+---
+
+* **3. Verificar Conexión:**
 
 * Asegúrate de que las credenciales en backend/config/conexion.php coincidan con tu entorno local (por defecto: host: localhost, user: root, password: '').
 
-## **4. Ejecutar la Aplicación:**
+---
+
+* **4. Ejecutar la Aplicación:**
 
 * Inicia los servicios de Apache y MySQL en tu entorno local.
 
 * Abre tu navegador web e ingresa a:http://localhost/embotelladora_thomsom/
 
+---
+
 ## 📋 5. Lineamientos de Entrega
-** Repositorio GitHub:** Código fuente estructurado y actualizado.
+* ** Repositorio GitHub:** Código fuente estructurado y actualizado.
 
-** Google Classroom:** Enlace directo entregado en el plazo establecido.
+* ** Google Classroom:** Enlace directo entregado en el plazo establecido.
 
-** Defensa:** Demostración en vivo del funcionamiento de la SPA y explicación de los controladores backend y consultas SQL.
+* ** Defensa:** Demostración en vivo del funcionamiento de la SPA y explicación de los controladores backend y consultas SQL.
