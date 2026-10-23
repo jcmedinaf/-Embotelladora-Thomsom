@@ -1,0 +1,51 @@
+<!-- Navbar Superior Oscuro -->
+<div class="bg-dark text-white py-2 px-4 d-flex justify-content-between align-items-center mb-4 shadow-sm">
+    <a href="#clientes" class="text-success text-decoration-none fw-bold fs-6">
+        <i class="bi bi-arrow-left"></i> Volver al Listado
+    </a>
+    <span class="text-light small">Gestión de Clientes - Maracaibo</span>
+</div>
+
+<div class="container pb-5" style="max-width: 700px;">
+    <!-- Título Dinámico -->
+    <div class="mb-4 mt-2">
+        <h3 id="titulo-form" class="fw-extrabold text-dark m-0" style="letter-spacing: -0.5px;">REGISTRAR NUEVO CLIENTE</h3>
+        <p class="text-muted small">Complete los datos correspondientes para el control en el sistema.</p>
+    </div>
+
+    <!-- Formulario -->
+    <div class="card border-0 shadow-sm rounded-4">
+        <div class="card-body p-4">
+            <form id="form-cliente">
+                <input type="hidden" id="cliente-id" name="id" value="">
+
+                <div class="mb-3">
+                    <label for="cedula_rif" class="form-label fw-bold small text-secondary">CÉDULA / RIF <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control rounded-2" id="cedula_rif" name="cedula_rif" placeholder="Ej. V-12345678 o J-12345678-9" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="nombre" class="form-label fw-bold small text-secondary">NOMBRE O RAZÓN SOCIAL <span class="text-danger">*</span></label>
+                    <input type="text" class="form-control rounded-2" id="nombre" name="nombre" placeholder="Nombre completo o empresa" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="telefono" class="form-label fw-bold small text-secondary">TELÉFONO</label>
+                    <input type="text" class="form-control rounded-2" id="telefono" name="telefono" placeholder="Ej. 0414-1234567">
+                </div>
+
+                <div class="mb-4">
+                    <label for="direccion" class="form-label fw-bold small text-secondary">DIRECCIÓN EN MARACAIBO</label>
+                    <textarea class="form-control rounded-2" id="direccion" name="direccion" rows="2" placeholder="Sector, calle o avenida...">Maracaibo, Zulia</textarea>
+                </div>
+
+                <div class="d-flex justify-content-end gap-2">
+                    <a href="#clientes" class="btn btn-outline-secondary px-4 fw-bold rounded-2">Cancelar</a>
+                    <button type="submit" class="btn btn-success px-4 fw-bold rounded-2" id="btn-guardar">
+                        <i class="bi bi-save me-1"></i> Guardar Cliente
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

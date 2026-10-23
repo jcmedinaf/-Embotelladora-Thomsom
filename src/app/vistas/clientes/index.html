@@ -1,0 +1,50 @@
+<!-- Navbar Superior Oscuro -->
+<div class="bg-dark text-white py-2 px-4 d-flex justify-content-between align-items-center mb-4 shadow-sm">
+    <a href="#dashboard" class="text-success text-decoration-none fw-bold fs-6">
+        <i class="bi bi-arrow-left"></i> Volver al Dashboard
+    </a>
+    <span class="text-light small">Módulo de Clientes - Maracaibo</span>
+</div>
+
+<div class="container pb-5" style="max-width: 1100px;">
+    <!-- Título y Botón Agregar Cliente -->
+    <div class="d-flex justify-content-between align-items-center mb-3 mt-4">
+        <h3 class="fw-extrabold text-dark m-0" style="letter-spacing: -0.5px;">LISTADO DE CLIENTES</h3>
+        <a href="#clientes/form" class="btn btn-success fw-bold px-3 py-2 rounded-2 d-flex align-items-center gap-1">
+            <i class="bi bi-plus-lg"></i> <span>AGREGAR CLIENTE</span>
+        </a>
+    </div>
+
+    <!-- Tabla con Contenedor Blanco Redondeado y Paginación -->
+    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-hover mb-0 align-middle">
+                    <thead class="table-light border-bottom text-uppercase fs-7 text-dark fw-bold">
+                        <tr>
+                            <th class="py-3 px-4">CÉDULA / RIF</th>
+                            <th class="py-3">NOMBRE / RAZÓN SOCIAL</th>
+                            <th class="py-3">TELÉFONO</th>
+                            <th class="py-3">DIRECCIÓN</th>
+                            <th class="py-3 text-center">ACCIONES</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabla-clientes-body" class="border-top-0">
+                        <tr>
+                            <td colspan="5" class="text-center py-5 text-muted fw-semibold">Cargando clientes...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- Pie con contador y controles de paginación -->
+        <div class="card-footer bg-white border-0 text-muted small py-3 px-4 d-flex justify-content-between align-items-center flex-wrap gap-2">
+            <span id="txt-total-clientes">Mostrando registros de clientes</span>
+            <nav>
+                <ul class="pagination pagination-sm mb-0" id="paginacion-clientes">
+                    <!-- Dinámico -->
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
