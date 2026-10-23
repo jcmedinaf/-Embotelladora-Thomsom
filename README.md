@@ -1,5 +1,13 @@
 # 💧 Sistema de Control y Gestión de Llenado - Embotelladora Thomsom
 
+> 🎓 **Proyecto Académico / Educativo**  
+> Desarrollado por **Juan Carlos Medina** con fines de aprendizaje y demostración de arquitectura web asíncrona (CRUD) utilizando PHP, MySQLi, AJAX y Bootstrap 4.
+
+[![PHP](https://img.shields.io/badge/PHP-7.4%20%7C%208.x-777BB4?style=flat-square&logo=php&logoColor=white)](https://www.php.net/)
+[![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-4.0-563D7C?style=flat-square&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+[![jQuery](https://img.shields.io/badge/jQuery-3.6.0-0769AD?style=flat-square&logo=jquery&logoColor=white)](https://jquery.com/)
+
 Aplicación web interactiva desarrollada bajo una arquitectura de Una Sola Página (**SPA**) para la empresa **Embotelladora Thomsom**, ubicada en Maracaibo, Estado Zulia. Su objetivo principal es automatizar el control de llenado, la gestión de clientes, el registro de transacciones de botellones de agua y la generación de reportes operativos.
 
 ---
@@ -71,10 +79,11 @@ embotelladora_thomsom/
 ---
 
 ## ⚙️ 4. Instalación y Puesta en Marcha Local
-* **1. Clonar el Repositorio** o descargar los archivos en la carpeta raíz de tu servidor local (ej. htdocs en XAMPP):
 
-> Bash
-> git clone [https://github.com/tu-usuario/embotelladora_thomsom.git](https://github.com/tu-usuario/embotelladora_thomsom.git)
+**1. Clonar el Repositorio**
+Descarga o clona los archivos en la carpeta raíz de tu servidor local (ej. `htdocs` en XAMPP):
+```bash
+git clone https://github.com/jcmedinaf/-Embotelladora-Thomsom.git
 
 ---
 
@@ -106,3 +115,11 @@ embotelladora_thomsom/
 * ** Google Classroom:** Enlace directo entregado en el plazo establecido.
 
 * ** Defensa:** Demostración en vivo del funcionamiento de la SPA y explicación de los controladores backend y consultas SQL.
+
+
+## 👨‍💻 Autoría y Propósito
+
+Este proyecto fue desarrollado íntegramente por **Ing. Juan Carlos Medina** con fines puramente educativos y demostrativos. 
+
+* **Propósito:** Servir como guía práctica y material didáctico sobre el desarrollo de aplicaciones web interactivas (CRUD) mediante peticiones asíncronas (AJAX), arquitectura limpia y buenas prácticas de seguridad en PHP.
+* **Licencia:** Libre para uso académico y de aprendizaje.
